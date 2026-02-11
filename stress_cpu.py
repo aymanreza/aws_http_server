@@ -15,4 +15,3 @@ processes = cpu_count()
 pool = Pool(processes)
 print(pool.map(stress_cpu, [110000000, 110000000]))
 print("time cost: ", time.time() - start_time)
-~                                                  
